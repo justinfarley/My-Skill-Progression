@@ -8,10 +8,6 @@ using System.Linq;
 
 public class TestChoiceSystem
 {
-    public static void RunTests()
-    {
-        Choose1_ChoiceSystem();
-    }
     public static Choice.ChoiceStateInfo GenerateInfo()
     {
         return new Choice.ChoiceStateInfo(true, "GENERATED CHOICE", ("THIS IS GENERATED TEST #" + UnityEngine.Random.Range(0f, 10000f)));
